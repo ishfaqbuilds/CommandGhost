@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.commandghost" path="/org/gnome/shell/extensions/commandghost/">
+    <key name="personal-commands" type="as">
+      <default>[]</default>
+      <summary>Personal commands</summary>
+      <description>User-defined commands in format: command | description | category</description>
+    </key>
+    <key name="builtin-commands" type="as">
+      <default>[]</default>
+      <summary>Built-in commands</summary>
+      <description>Editable built-in commands in format: command | description | category</description>
+    </key>
+    <key name="theme" type="s">
+      <default>'hacker'</default>
+      <summary>Color theme</summary>
+      <description>Theme for the ghost popup (hacker, purple, dark, light)</description>
+    </key>
+    <key name="show-emoji" type="b">
+      <default>true</default>
+      <summary>Show ghost emoji</summary>
+      <description>Show 👻 emoji in panel instead of icon</description>
+    </key>
+    <key name="box-width" type="i">
+      <default>500</default>
+      <summary>Popup width</summary>
+      <description>Width of the suggestion popup in pixels</description>
+    </key>
+  </schema>
+</schemalist>

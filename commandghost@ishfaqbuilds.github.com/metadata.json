@@ -1,0 +1,10 @@
+{
+  "uuid": "commandghost@ishfaqbuilds.github.com",
+  "name": "Command Ghost",
+  "description": "A helpful spirit that whispers command suggestions as you type in the terminal. Perfect for Linux beginners learning their way around the command line.",
+  "version": 1,
+  "shell-version": ["42", "43", "44", "45", "46"],
+  "url": "https://github.com/ishfaqbuilds/CommandGhost",
+  "settings-schema": "org.gnome.shell.extensions.commandghost",
+  "gettext-domain": "commandghost"
+}
