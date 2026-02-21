@@ -8,16 +8,6 @@ Get command suggestions as you type in your terminal. Perfect for learning Linux
 ---
 #### ⚡ Quick Install
 
-##### -- Manual --
-ZIP Download (Easiest for users): If you download `CommandGhost.zip` from Releases, you’ll need to manually extract it: 
-```
-unzip CommandGhost.zip
-```
-Then follow the install steps (copy to ~/.local/share/gnome-shell/extensions/, compile schemas, enable, add to Zsh, restart).
-
-
-##### -- Git Clone --
-
 ###### 1. Download and install
 ```
 git clone https://github.com/ishfaqbuilds/CommandGhost.git
