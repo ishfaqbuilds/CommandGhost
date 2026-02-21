@@ -64,11 +64,11 @@ Example:
 vagrant up | Start VM | Vagrant
 
 ---
-#### ⚙️ Requirements
+#### 🐧 Works On
 
-- GNOME Shell 42+
-- Zsh shell
-- Linux with GNOME desktop
+Ubuntu • Fedora • Debian • Arch • Pop!_OS • Any GNOME desktop
+
+Needs: GNOME 42+ and Zsh
 
 ---
 #### 🐛 Not Working?
