@@ -27,7 +27,7 @@ gnome-extensions enable commandghost@ishfaqbuilds.github.com
 
 ###### 4. Add to Zsh
 ```
-echo "source ~/.local/share/gnome-shell/extensions/commandghost@ishfaqbuilds.github.com/command-ghost.zsh" &gt;&gt; ~/.zshrc
+echo "source ~/.local/share/gnome-shell/extensions/commandghost@ishfaqbuilds.github.com/command-ghost.zsh" >> ~/.zshrc
 ```
 
 ###### 5. Restart (Log out & back in, or Alt+F2 → r → Enter on X11)
