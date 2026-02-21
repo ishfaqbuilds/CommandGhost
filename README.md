@@ -43,7 +43,7 @@ echo "source ~/.local/share/gnome-shell/extensions/commandghost@ishfaqbuilds.git
 6. Toggle on/off – Click the 👻 icon
 
 ---
-#### 🎨 Themes
+#### Themes
 
 | Theme         | Style            |
 |---------------|------------------|
@@ -82,7 +82,25 @@ gnome-extensions list --enabled | grep commandghost
 ```
 journalctl -n 20 /usr/bin/gnome-shell | grep -i ghost
 ```
+---
+---
+#### 🤝 Contribute
 
+Want to improve Command Ghost? Contributions welcome!
+
+1. Fork this repository
+2. Create a branch (`git checkout -b feature/your-feature`)
+3. Commit changes (`git commit -m "Add feature"`)
+4. Push to branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
+
+Ideas:
+- Add Bash/Fish shell support
+- New themes
+- More built-in commands
+- Bug fixes
+
+---
 #### 📜 License
 
 Licensed under the **MIT License**. See the `LICENSE` file for details. Built By IshfaqBuilds
