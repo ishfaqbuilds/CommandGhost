@@ -6,7 +6,7 @@ Get command suggestions as you type in your terminal. Perfect for learning Linux
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
-#### Quick Install
+#### ⚡ Quick Install
 
 ###### 1. Download and install
 ```
@@ -33,7 +33,7 @@ echo "source ~/.local/share/gnome-shell/extensions/commandghost@ishfaqbuilds.git
 ###### 5. Restart (Log out & back in, or Alt+F2 → r → Enter on X11)
 
 ---
-#### Features
+#### 📌 Features
 
 1. Smart suggestions – Type and see commands instantly
 2. Search by description – Type "copy" → find cp
@@ -43,7 +43,7 @@ echo "source ~/.local/share/gnome-shell/extensions/commandghost@ishfaqbuilds.git
 6. Toggle on/off – Click the 👻 icon
 
 ---
-#### Themes
+#### 🎨 Themes
 
 | Theme         | Style            |
 |---------------|------------------|
@@ -53,7 +53,7 @@ echo "source ~/.local/share/gnome-shell/extensions/commandghost@ishfaqbuilds.git
 | Light Mode    | Clean light      |
 
 ---
-#### Add Custom Commands
+#### ✏️ Add Custom Commands
 
 - Click 👻 in top panel → Settings
 - Go to Personal tab
@@ -64,14 +64,14 @@ Example:
 vagrant up | Start VM | Vagrant
 
 ---
-#### Requirements
+#### ⚙️ Requirements
 
 - GNOME Shell 42+
 - Zsh shell
 - Linux with GNOME desktop
 
 ---
-#### Not Working?
+#### 🐛 Not Working?
 
 ###### Check if enabled
 ```
@@ -82,7 +82,6 @@ gnome-extensions list --enabled | grep commandghost
 ```
 journalctl -n 20 /usr/bin/gnome-shell | grep -i ghost
 ```
----
 ---
 #### 🤝 Contribute
 
